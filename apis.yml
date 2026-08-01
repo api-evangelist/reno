@@ -1,8 +1,26 @@
 aid: reno
 name: Reno
-description: Reno is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Reno (Reno Home) is a Dubai, UAE based one-stop home renovation platform
+  that connects homeowners and businesses with professional interior designers and
+  vetted contractors, managing renovation projects end-to-end from design and contracting
+  through quality inspections and completion. Its Reno mobile app lets clients track
+  project progress, budgets, timelines and change requests in real time, and it offers
+  a "Renovate Now, Pay Later" financing model with 3, 6 or 12 month installment plans.
+  Reno is backed by 500 Global (500 Sanabil), Hub71 and other regional investors. It
+  is a consumer-facing service and publishes no public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/reno/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/675342b60f026169692a8a8d/6795353899275dc937b55a30_Webclip.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +29,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Real Estate
+- Home Renovation
+- Interior Design
+- Construction
+- PropTech
+- Buy Now Pay Later
+- Fintech
+- Mobile App
+- Dubai
+- UAE
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/reno-domain-security.yml
 - type: Website
-  url: https://renohome.ae
+  url: https://www.renohome.ae
+- type: Blog
+  url: https://www.renohome.ae/blog
+- type: PrivacyPolicy
+  url: https://www.renohome.ae/privacy-policy
+- type: Support
+  url: https://api.whatsapp.com/send?phone=971508864836
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
